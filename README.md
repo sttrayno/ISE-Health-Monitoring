@@ -6,6 +6,16 @@ Please note, the actual performance and scale limits will vary depend on your de
 
 The objective of this project is to provide some example dashboards and telegraf collectors to allow ISE admins to customise and deploy for their own environment.
 
+## Background - the ISE API
+
+There are two types of API in ISE, the ERS (External RESTful Services) and the MNT (monitoring) for this project we'll be using a combination of the two. 
+
+Please note ERS API access is turned off by default, to enable it have a read at this guide [here](https://community.cisco.com/t5/security-documents/ise-ers-api-examples/ta-p/3622623) 
+
+Once the ERS API is enabled the documentation can then be accessed from https://{{Address of ISE PAN node}}:9060/ers/sdk
+
+There is no documentation for the MNT API on the ISE instance itself but the reference guide can be found [here](https://www.cisco.com/c/en/us/td/docs/security/ise/2-0/api_ref_guide/api_ref_book/ise_api_ref_ch1.html)
+
 ## Development status
 
 To track development of the individual scripts required, please refer to this table. If you'd like to add in your own scripts of functionality please make a pull request on this repo.
