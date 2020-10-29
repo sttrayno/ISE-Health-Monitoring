@@ -23,19 +23,19 @@ To track development of the individual scripts required, please refer to this ta
 | dataType | Description         | API endpoint                       | Complete | Limit (2.6)                                                  |
 |----------|---------------------|------------------------------------|----------|--------------------------------------------------------------|
 | Sessions | Number of sessions  | /admin/API/mnt/Session/ActiveCount | 🔴        | 2,000,000 - 3695 as PAN and MnT 500,000 -3595 as PAN and MnT |
-| PSN      | Number of PSN nodes |                                    | 🔴        | 50                                                           |
-| NADS     | Number of network access devices |                                    | 🔴         | 100,000                                               |
-| NDG      | Number of network device groups |                                    | 🔴         | 10,0000                                             |
-| Endpoints | Number of endpoints |                                    |🔴          | 2,000,000                                                           |
-|  Internal users | Number of internal users |                                    |🔴          | 300,000                                         |
+| PSN      | Number of PSN nodes | /ers/config/sessionservicenode     | 🔴        | 50                                                           |
+| NADS     | Number of network access devices |/ers/config/networkdevice | 🔴         | 100,000                                               |
+| NDG      | Number of network device groups |/ers/config/networkdevicegroup | 🔴         | 10,0000                                             |
+| Endpoints | Number of endpoints | /ers/config/endpoint              |🔴          | 2,000,000                                                           |
+|  Internal users | Number of internal users | /ers/config/internaluser |🔴          | 300,000                                         |
 |  Active Directory controllers| Maximum number of AD controllers |               |🔴       | 100                                                |
 | User certificates  | tbd|                                    |🔴          | 1,000,000                                                          |
 | Server certificates | tbd |                                    |🔴          | 1000                                                             |
 | Trusted Certificates| tbd |                                    |🔴          | 1000                                                             |
-| Number of user portals (Guest, BYOD, MDM, Cert, Posture..)| tbd |        |🔴          | 600                                                    |
-| Authentication rules| tbd |                                    |🔴          | N/A (Simple Policy Mode) /1000 (Policy Set Mode)                                                                  |
+| Number of user portals (Guest, BYOD, MDM, Cert, Posture..)| tbd |/ers/config/portal  |🔴          | 600                                                    |
+| Authentication Rules| tbd |                                    |🔴          | N/A (Simple Policy Mode) /1000 (Policy Set Mode)                                                                  |
 | Authorization Rules | tbd |                                    |🔴          | N/A (Simple Policy Mode) / 3,000* (Policy Set Mode) with 3200 Authz profiles                                                                |
-| Endpoint Identity Groups | tbd |                                    |🔴          | 1000                                                        |
+| Endpoint Identity Groups | tbd | /ers/config/endpointgroup  |🔴          | 1000                                                        |
 | User Identity Groups| TBD |                                    |🔴          | 1000                                                             |
 | Latency | Latency between hosts |                                    |🔴          | 300ms                                                      |
 | Process | Status of core ISE application processes |                                    |🔴          | up/down                                                      |
