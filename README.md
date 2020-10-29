@@ -1,6 +1,6 @@
 # ISE-Health-Monitoring
 
-
+ISE is a widely used distributed system for network access control, as ISE is a distributed system there are many ways in
 
 
 
@@ -25,9 +25,9 @@ To track development of the individual scripts required,
 | Endpoints| Number of endpoints |                                    |🔴          |                                                              |
 | Endpoints| Number of endpoints |                                    |🔴          |                                                              |
 | Endpoints| Number of endpoints |                                    |🔴          |                                                              |
-| Endpoints| Number of endpoints |                                    |🔴          |                                                              |
-| Endpoints| Number of endpoints |                                    |🔴          |                                                              |
-| Endpoints| Number of endpoints |                                    |🔴          |                                                              |
-| Endpoints| Number of endpoints |                                    |🔴          |                                                              |
-| Endpoints| Number of endpoints |                                    |🔴          |                                                              |
+| number of user portals (Guest, BYOD, MDM, Cert, Posture..)| Number of endpoints |                                    |🔴          | 600                                                            |
+| Authentication rules| tbd |                                    |🔴          |                                                              |
+| Authorization Rules| tbd |                                    |🔴          |                                                              |
+| Endpoint Identity Groups | tbd |                                    |🔴          | 1000                                                             |
+| User Identity Groups| TBD |                                    |🔴          | 1000                                                             |
 | Endpoints| Number of endpoints |                                    |🔴          |                                                              |
