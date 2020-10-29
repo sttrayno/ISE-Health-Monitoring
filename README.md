@@ -28,7 +28,7 @@ To track development of the individual scripts required, please refer to this ta
 | NDG      | Number of network device groups |/ers/config/networkdevicegroup | 🔴         | 10,0000                                             |
 | Endpoints | Number of endpoints | /ers/config/endpoint              |🔴          | 2,000,000                                                           |
 |  Internal users | Number of internal users | /ers/config/internaluser |🔴          | 300,000                                         |
-|  Active Directory controllers| Maximum number of AD controllers |               |🔴       | 100                                                |
+|  Active Directory controllers| Maximum number of AD controllers | /ers/config/activedirectory - TBC |🔴       | 100                                                |
 | User certificates  | tbd|                                    |🔴          | 1,000,000                                                          |
 | Server certificates | tbd |                                    |🔴          | 1000                                                             |
 | Trusted Certificates| tbd |                                    |🔴          | 1000                                                             |
