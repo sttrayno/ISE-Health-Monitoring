@@ -36,7 +36,7 @@ To track development of the individual scripts required, please refer to this ta
 | Authentication Rules| tbd |                                    |🔴          | N/A (Simple Policy Mode) /1000 (Policy Set Mode)                                                                  |
 | Authorization Rules | tbd |                                    |🔴          | N/A (Simple Policy Mode) / 3,000* (Policy Set Mode) with 3200 Authz profiles                                                                |
 | Endpoint Identity Groups | tbd | /ers/config/endpointgroup  |🔴          | 1000                                                        |
-| User Identity Groups| TBD |                                    |🔴          | 1000                                                             |
+| User Identity Groups| TBD | /ers/config/identitygroup - TBC |🔴          | 1000                                                             |
 | Latency | Latency between hosts |                                    |🔴          | 300ms                                                      |
 | Process | Status of core ISE application processes |                                    |🔴          | up/down                                                      |
 | Volumes | Free Capacity of core volumn mounts |                                    |🔴          |                                                       |
