@@ -34,7 +34,7 @@ To track development of the individual scripts required, please refer to this ta
 | Trusted Certificates| tbd |                                    |🔴          | 1000                                                             |
 | Number of user portals (Guest, BYOD, MDM, Cert, Posture..)| tbd |/ers/config/portal  |🔴          | 600                                                    |
 | Authentication Rules| tbd |                                    |🔴          | N/A (Simple Policy Mode) /1000 (Policy Set Mode)                                                                  |
-| Authorization Rules | tbd |                                    |🔴          | N/A (Simple Policy Mode) / 3,000* (Policy Set Mode) with 3200 Authz profiles                                                                |
+| Authorization Rules | tbd |   /ers/config/authorizationprofile |🔴          | N/A (Simple Policy Mode) / 3,000* (Policy Set Mode) with 3200 Authz profiles                                                                |
 | Endpoint Identity Groups | tbd | /ers/config/endpointgroup  |🔴          | 1000                                                        |
 | User Identity Groups| TBD | /ers/config/identitygroup - TBC |🔴          | 1000                                                             |
 | Latency | Latency between hosts |                                    |🔴          | 300ms                                                      |
