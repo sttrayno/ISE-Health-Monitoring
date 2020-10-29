@@ -38,3 +38,8 @@ To track development of the individual scripts required, please refer to this ta
 | Endpoint Identity Groups | tbd |                                    |🔴          | 1000                                                        |
 | User Identity Groups| TBD |                                    |🔴          | 1000                                                             |
 | Latency | Latency between hosts |                                    |🔴          | 300ms                                                      |
+| Process | Status of core ISE application processes |                                    |🔴          | up/down                                                      |
+| Volumes | Free Capacity of core volumn mounts |                                    |🔴          |                                                       |
+| CPU | Utilisation of UCS/VM CPU |                                    |🔴          |                                                       |
+| RAM | Utiliation of UCS/VM RAM |                                    |🔴          |                                                       |
+| HDD | Overall utilisation of UCS/VM storage allocation |                                    |🔴          |                                                       |
