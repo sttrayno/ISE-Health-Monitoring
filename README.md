@@ -26,7 +26,7 @@ To track development of the individual scripts required, please refer to this ta
 | PSN      | Number of PSN nodes |                                    | 🔴        | 50                                                           |
 | NADS     | Number of network access devices |                                    | 🔴         | 100,000                                               |
 | NDG      | Number of network device groups |                                    | 🔴         | 10,0000                                             |
-| Endpoints | Number of endpoints |                                    |🔴          |                                                            |
+| Endpoints | Number of endpoints |                                    |🔴          | 2,000,000                                                           |
 |  Internal users | Number of internal users |                                    |🔴          | 300,000                                         |
 |  Active Directory controllers| Maximum number of AD controllers |               |🔴       | 100                                                |
 | User certificates  | tbd|                                    |🔴          | 1,000,000                                                          |
