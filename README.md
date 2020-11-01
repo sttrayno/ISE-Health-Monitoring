@@ -43,3 +43,6 @@ To track development of the individual scripts required, please refer to this ta
 | CPU | Utilisation of UCS/VM CPU |                                    |❌         |                                                       |
 | RAM | Utiliation of UCS/VM RAM |                                    |❌          |                                                       |
 | HDD | Overall utilisation of UCS/VM storage allocation |                                    |❌         |                                                       |
+
+
+## Setup
