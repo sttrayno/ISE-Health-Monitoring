@@ -7,7 +7,7 @@ echo Enter your username:
 read USER
 
 echo Enter your password: 
-read $PASSWORD
+read PASSWORD
 
 apt-get update -y && apt-get upgrade -y
 apt-get install python3 -y
