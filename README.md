@@ -46,3 +46,13 @@ To track development of the individual scripts required, please refer to this ta
 
 
 ## Setup
+
+```
+root@93226c9cafda:/# git clone https://github.com/sttrayno/ISE-Health-Monitoring
+cd ISE-Health-Monitoring
+```
+
+```
+root@93226c9cafda:/ISE-Health-Monitoring# chmod +x setup.sh   
+./setup.sh
+```
