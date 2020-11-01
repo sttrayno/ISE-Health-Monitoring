@@ -1,0 +1,7 @@
+[[inputs.exec]]
+ command = "/opt/telegraf/env3/bin/python /etc/telegraf/scripts/getTotal.py https://{{ISENODE}}:{{PORT}} {{USER}} {{PASSWORD}} /ers/config/networkdevicegroup"
+ data_format = "value"
+ data_type = "integer"
+ name_suffix = "_RejectedEndpoints"
+ interval = "1m"
+ timeout = "30s"
