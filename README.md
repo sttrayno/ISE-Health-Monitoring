@@ -22,7 +22,7 @@ To track development of the individual scripts required, please refer to this ta
 
 | dataType | Description         | API endpoint                       | Complete | Limit (2.6)                                                  |
 |----------|---------------------|------------------------------------|----------|--------------------------------------------------------------|
-| Sessions | Number of sessions  | /admin/API/mnt/Session/ActiveCount | ❌        | 2,000,000 - 3695 as PAN and MnT 500,000 -3595 as PAN and MnT |
+| Sessions | Number of sessions  | /admin/API/mnt/Session/ActiveCount | ✅        | 2,000,000 - 3695 as PAN and MnT 500,000 -3595 as PAN and MnT |
 | PSN      | Number of PSN nodes | /ers/config/sessionservicenode     | ✅        | 50                                                           |
 | NADS     | Number of network access devices |/ers/config/networkdevice | ✅         | 100,000                                               |
 | NDG      | Number of network device groups |/ers/config/networkdevicegroup | ✅         | 10,0000                                             |
