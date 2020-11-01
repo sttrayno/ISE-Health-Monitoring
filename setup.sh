@@ -11,3 +11,4 @@ cd /opt/telegraf
 python3 -m venv env3
 source env3/bin/activate
 pip3 install requests
+cd /etc/telegraf/telegraf.d
