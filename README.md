@@ -1,6 +1,6 @@
 # ISE Health Monitoring Dashboards
 
-ISE is a widely used distributed system for network access control, as ISE is a distributed system there are many limits to the system which should be monitored in a proactive way. To solve this we're going to leverage off the shelf tools such as TIG stack to collect, store and visualise the data from the ISE API to monitor these metrics.
+ISE is a widely used solution for network access control, as ISE is a distributed system there are many limits to the system which should be monitored in a proactive way. To solve this we're going to leverage off the shelf tools such as TIG stack to collect, store and visualise the data from the ISE API to monitor these metrics.
 
 Please note, the actual performance and scale limits will vary depend on your deployment type and version, please refer to [this](https://community.cisco.com/t5/security-documents/ise-performance-amp-scale/ta-p/3642148#toc-hId-1185499862) document to refer to the actual scale numbers for your scenario.
 
